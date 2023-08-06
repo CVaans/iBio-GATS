@@ -18,7 +18,7 @@ The NCBI provides a suite of command-line tools to run BLAST called BLAST+. This
 
 **Install Modeller 10.4**
 
-MODELLER 10.4 is a tool for modelling protein three-dimensional structures based on homology or omparative analysis. An alignment file containing the alignment of a sequence to be modelled with known related structure/structures is given as input for the Modeller for it to automatically calculate a model for the given target sequence. Modeller is available for download for Unix/Linux, Windows, and Mac operating systems.                                       
+MODELLER 10.4 is a tool for modelling protein three-dimensional structures based on homology or comparative analysis. An alignment file containing the alignment of a sequence to be modelled with known related structure/structures is given as input for the Modeller for it to automatically calculate a model for the given target sequence. Modeller is available for download for Unix/Linux, Windows, and Mac operating systems.                                       
 
 - Current version Modeller 10.4 released on Nov 2022 can be downloaded from [here](https://salilab.org/modeller/download_installation.html)
 
