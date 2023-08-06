@@ -34,7 +34,8 @@ MODELLER 10.4 is a tool for modelling protein three-dimensional structures based
 
 
 **Prerequisites:**
-Input file: A target sequence from _Drosophila melanogaster_ odorant receptor sequence (sequence.fasta) to be kept in iBio-GATS folder by the user
+**Input file:**
+A target sequence from _Drosophila melanogaster_ odorant receptor sequence (sequence.fasta) to be kept in iBio-GATS folder by the user
 
 **Run bash script ibio-gats.sh**
 
