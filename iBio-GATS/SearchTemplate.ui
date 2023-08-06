@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchTemplate</class>
+ <widget class="QMainWindow" name="SearchTemplate">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>909</width>
+    <height>761</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Top 3 templates&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableTemplate1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>120</y>
+      <width>741</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>SSD</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>TM1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM4</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM5</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM6</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM7</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="template1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>59</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableTemplate1res">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>190</y>
+      <width>251</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Resolution (Å)</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Sequence identity (%)</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Position</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string/>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="template2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>59</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableTemplate2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>320</y>
+      <width>741</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>SSD</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>TM1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM4</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM5</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM6</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM7</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="tableTemplate2res">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>400</y>
+      <width>201</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Resolution (Å)</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Sequence identity (%)</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Position</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string/>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="template3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>510</y>
+      <width>59</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableTemplate3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>530</y>
+      <width>741</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>SSD</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>TM1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM4</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM5</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM6</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TM7</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="tableTemplate3res">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>600</y>
+      <width>201</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <row>
+     <property name="text">
+      <string>Resolution (Å)</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Sequence identity (%)</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Position</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string/>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="align1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>180</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show TM wise alignment between target sequence and selected template&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>Show alignment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="align2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>380</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show TM wise alignment between target sequence and selected template&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>Show alignment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="align3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>590</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show TM wise alignment between target sequence and selected template&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>Show alignment</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="homeButton">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>50</y>
+      <width>80</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plot1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>210</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show TM wise alignment between target sequence and selected template&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>Download plot</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plot2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>410</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show TM wise alignment between target sequence and selected template&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>Download plot</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plot3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>620</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Show TM wise alignment between target sequence and selected template&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string>Download plot</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>60</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ative</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Inative</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Intermediate</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>60</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select state</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>909</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
