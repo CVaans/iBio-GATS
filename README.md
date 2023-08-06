@@ -1,5 +1,5 @@
 # iBio-GATS (Inverted Bio-GATS): 
-## A workflow for building high-quality structural models of insect ORs, based on the Bio-GATS (Jabeen et al.) approach.
+## A semi-automated workflow for building high-quality structural models of insect ORs, based on the Bio-GATS (Jabeen et al.) approach.
 ### Getting started 
 **Install BLAST**
 The NCBI provides a suite of command-line tools to run BLAST called BLAST+. This allows users to perform BLAST searches on their own server without size, volume, and database restrictions. BLAST+ can be used with a command line so it can be integrated directly into your workflow.
